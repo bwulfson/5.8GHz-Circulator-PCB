@@ -1,0 +1,204 @@
+(footprint "5.8GHz_Circulator_Molex"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -7.345 0)
+		(layer "F.SilkS")
+		(uuid "e73f1fd8-a876-4464-a19a-741e3acc352d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "5.8GHz_Circulator_Molex"
+		(at 0 7.345 0)
+		(layer "F.Fab")
+		(uuid "e275d2e4-c7c6-46e1-9072-18dd8a91b6e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43fc6e98-2bf0-4481-bb34-1309fd67b137")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b0adbd8-0397-4e17-afdf-1fea129a760d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end 0 6.42)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "48c8b37a-a4cd-4646-9eb0-a1c05afebb37")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 6.67)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "0015e6a8-e35c-416b-a87c-418b08cf8571")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 6.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7c6c3181-3b7b-444b-8804-4701e8744c77")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "5d0c6648-9dc4-4732-ae8c-e824ef5a89eb")
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+	)
+	(point
+		(at -5.059695 0.639924)
+		(size 1)
+		(layer "F.Cu")
+		(uuid "892e0479-b436-4279-bc94-de5342e3b1b9")
+	)
+	(point
+		(at -3.096523 4.05235)
+		(size 1)
+		(layer "F.Cu")
+		(uuid "046d14c9-196e-43a1-ad25-5af8651f899f")
+	)
+	(point
+		(at -1.961177 -4.707843)
+		(size 1)
+		(layer "F.Cu")
+		(uuid "03994de1-7fc1-434e-b904-b225a5f0292a")
+	)
+	(point
+		(at 1.961177 -4.707843)
+		(size 1)
+		(layer "F.Cu")
+		(uuid "830c71f8-2669-4eeb-b6df-aa7601e5be24")
+	)
+	(point
+		(at 3.096523 4.05235)
+		(size 1)
+		(layer "F.Cu")
+		(uuid "6b80f021-7012-43f3-a03e-d8e1770a6c39")
+	)
+	(point
+		(at 5.0577 0.655492)
+		(size 1)
+		(layer "F.Cu")
+		(uuid "1f164541-c9bc-41d6-97d5-2ff0955862d8")
+	)
+	(pad "1" smd oval
+		(at 0 -5.1)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "1106e5fc-ce1f-4c22-bfe7-6694a120e615")
+	)
+	(pad "2" smd oval
+		(at 4.416729 2.549999)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "399fe311-e12e-46ad-898c-ce8a713220e4")
+	)
+	(pad "3" smd oval
+		(at -4.416729 2.55)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "7d1288f5-d2e4-4457-ad5e-8aea801d70ad")
+	)
+	(pad "4" smd custom
+		(at 0 0)
+		(size 2 2)
+		(property pad_prop_heatsink)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 1)
+		(thermal_bridge_width 1)
+		(thermal_gap 1)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(arc
+						(start -1.961177 -4.707842)
+						(mid 0 -3.099999)
+						(end 1.961177 -4.707842)
+					)
+					(arc
+						(start 1.961177 -4.707842)
+						(mid 4.416729 -2.55)
+						(end 5.0577 0.655492)
+					)
+					(arc
+						(start 5.0577 0.655492)
+						(mid 2.684678 1.549999)
+						(end 3.096523 4.05235)
+					)
+					(arc
+						(start 3.096523 4.05235)
+						(mid 0.007541 5.099994)
+						(end -3.086364 4.063911)
+					)
+					(arc
+						(start -3.086364 4.063911)
+						(mid -2.663963 1.54068)
+						(end -5.060611 0.632624)
+					)
+					(arc
+						(start -5.060611 0.632624)
+						(mid -4.410955 -2.559975)
+						(end -1.961177 -4.707842)
+					)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "3eabb4d8-3105-4c61-ad11-8e87e940fd03")
+	)
+	(embedded_fonts no)
+)
