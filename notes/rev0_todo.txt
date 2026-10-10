@@ -1,0 +1,6 @@
+TODO FOR PCB
+Modify trace widths to match calculated value [done]
+Add Via stitching for circulator thermal pad [done]
+Add DRC rules and run checks
+Import trace width, length, and taper data to qucs-s
+
