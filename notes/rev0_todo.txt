@@ -1,8 +1,0 @@
-TODO FOR PCB
-Modify trace widths to match calculated value [done]
-Modify SMA Edge launch to accomodate microstrip to GCPW transition
-Modify Ground plane under Amp to add a pour -> Resemble datasheet
-Modify ground planes under components to reduce parasitic capacitances under pads
-Add DRC rules and run checks
-Import trace width, length, and taper data to qucs-s
-
