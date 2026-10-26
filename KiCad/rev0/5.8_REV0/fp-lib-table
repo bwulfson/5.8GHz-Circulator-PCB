@@ -1,4 +1,0 @@
-(fp_lib_table
-	(version 7)
-	(lib (name "usrFootprintLib") (type "KiCad") (uri "/home/bwulfson/Documents/UniversityOfHouston/SeniorDesign1/GitHub/5.8GHz-Circulator-PCB/KiCad/usrFootprintLib.pretty") (options "") (descr ""))
-)
