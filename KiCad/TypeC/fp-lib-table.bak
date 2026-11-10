@@ -1,0 +1,6 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "usrLib") (type "KiCad") (uri "/home/bwulfson/Downloads/5.8GHz-Circulator-PCB-master/5.8GHz-Circulator-PCB-master/KiCad/usrFootprintLib.pretty") (options "") (descr ""))
+	(lib (name "testLib") (type "KiCad") (uri "${KIPRJMOD}/_restore_backup_2026-10-16T00-31-10-900/testLib.pretty") (options "") (descr ""))
+	(lib (name "Test2") (type "KiCad") (uri "${KIPRJMOD}/Test2.pretty") (options "") (descr ""))
+)
