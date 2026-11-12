@@ -1,4 +1,4 @@
 # 5.8GHz Reflection Amplifier
 This repo is used to store KiCAD schematics, simulations, and documentation regarding the 5.8GHz Circuit for the Team 15 Reflection Amplifier Project
 ![alt text](https://github.com/bwulfson/5.8GHz-Circulator-PCB/blob/master/docs/images/PCBV1FrontPage.png "Rev1TypeA PCB")
-
+![alt text](https://github.com/bwulfson/5.8GHz-Circulator-PCB/blob/master/docs/images/TypeCScreenshot.png "Rev1TypeC PCB")
