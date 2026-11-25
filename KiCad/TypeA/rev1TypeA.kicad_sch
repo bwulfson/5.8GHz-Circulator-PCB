@@ -1198,6 +1198,287 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "RF:PAT1220-C-0DB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -6.35 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PAT1220-C-0DB"
+				(at 5.08 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "RF_Converter:RF_Attenuator_Susumu_PAT1220"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition16_en.pdf"
+				(at -6.35 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "10GHz RF Attenuator, 50ohm Matched Impedance, 0dB Attenuation, PAT1220"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "RF attenuator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "RF*Attenuator*Susumu*PAT1220*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PAT1220-C-0DB_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.937 1.27) (xy -3.937 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.937 -3.048) (xy 3.937 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -7.62 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.937 1.27) (xy 3.937 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PAT1220-C-0DB_1_1"
+				(rectangle
+					(start -4.572 -1.778)
+					(end -3.302 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.937 -3.048) (xy -3.937 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.524 3.175)
+					(end 1.524 1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.302 -1.778)
+					(end 4.572 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.937 -3.048) (xy 3.937 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 1.524 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1321,12 +1602,6 @@
 		(uuid "15977847-e225-40bf-bb65-fb2c7f954d35")
 	)
 	(junction
-		(at 148.59 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "55e2bf7a-179d-4bb3-8b47-4d53b252349c")
-	)
-	(junction
 		(at 185.42 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1343,6 +1618,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78064f09-4fd3-42ea-9acf-6a0f3046dce4")
+	)
+	(junction
+		(at 148.59 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86b6c740-00c4-426c-91d3-31298be9633a")
 	)
 	(junction
 		(at 185.42 74.93)
@@ -1375,6 +1656,16 @@
 			(type default)
 		)
 		(uuid "19e6b0a3-2e15-49dd-8595-c07552d7ddb3")
+	)
+	(wire
+		(pts
+			(xy 124.46 77.47) (xy 127 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22e8071f-da6e-46e9-b6a0-843560bdb25c")
 	)
 	(wire
 		(pts
@@ -1478,16 +1769,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 77.47) (xy 148.59 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f95cd34-eb90-4c78-a753-9a0fdee64b47")
-	)
-	(wire
-		(pts
 			(xy 215.9 60.96) (xy 227.33 60.96)
 		)
 		(stroke
@@ -1575,6 +1856,16 @@
 			(type default)
 		)
 		(uuid "e9a62601-dbb1-4f9d-8958-52bf04a1f8fe")
+	)
+	(wire
+		(pts
+			(xy 147.32 77.47) (xy 148.59 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed85d4d9-bb06-4ef6-bf04-8b9c6f8113e6")
 	)
 	(wire
 		(pts
@@ -1695,6 +1986,89 @@
 		)
 	)
 	(symbol
+		(lib_id "RF:PAT1220-C-0DB")
+		(at 137.16 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17968d74-45f2-406e-ac92-8cb9bc269f19")
+		(property "Reference" "U1"
+			(at 137.16 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PAT1220-C-0DB"
+			(at 137.16 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RF_Converter:RF_Attenuator_Susumu_PAT1220"
+			(at 137.16 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition16_en.pdf"
+			(at 130.81 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10GHz RF Attenuator, 50ohm Matched Impedance, 0dB Attenuation, PAT1220"
+			(at 137.16 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a6d0b5a7-a65e-4dcf-900e-26caa2e974fc")
+		)
+		(pin "1"
+			(uuid "1e29aaff-8e07-4064-b8fa-50f79b101d35")
+		)
+		(pin "3"
+			(uuid "bc09785c-b1e4-4379-876f-9ffd9971f00c")
+		)
+		(instances
+			(project "rev1TypeA"
+				(path "/d07063bb-032b-4108-a1fe-185afdf9572c"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 124.46 107.95 0)
 		(unit 1)
@@ -1795,7 +2169,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100pF"
 			(at 195.58 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2037,7 +2411,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.01uF"
 			(at 231.14 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2519,7 +2893,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "39nH"
 			(at 186.69 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2765,7 +3139,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "18nH"
 			(at 149.86 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3601,7 +3975,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10pF"
 			(at 208.28 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3683,7 +4057,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1nF"
 			(at 219.71 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
